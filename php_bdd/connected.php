@@ -28,7 +28,7 @@ if($_POST["currentPassword"] == $row["password"] and $_POST["newPassword"] == $_
 
 <h1>Bienvenue sur vote espace personnel <?php echo $_SESSION['username']; ?></h1>
 
-<div><button href="logout.php">Logout</button></div>
+<div><a href="logout.php">Logout</a></div>
 
 <div>
 	<p>Your account details are below:</p>
